@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(231, 219, 229);
+    background-color: rgb(9, 2, 29);
    display: flex;
    justify-content: center;
     max-width: 100%;
@@ -11,24 +11,24 @@ body{
     margin: 30px;
     height: 80%;
     width: 300px;
-    background-color: rgba(194, 165, 194, 0.6);
+    background-color: rgba(68, 41, 141, 0.6);
     border-radius: 16px;
    display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
    gap: 40px;
-   box-shadow: 0 1px 10px 5px rgba(179, 7, 164, 0.836);
+   box-shadow: 0 1px 10px 5px #0ea5dc;
 }
 
 .sistem h1{
-    color: rgba(233, 12, 214, 0.781);
+    color: #1c9bc9;
     text-transform: uppercase;
     transition: 0.5s;
     cursor: pointer;
 }
 .sistem h1:hover{
-    color: rgba(180, 17, 167, 0.781);
+    color: #03b7f8;
 }
 
 .sistem .rangers{
@@ -54,8 +54,8 @@ body{
     font-weight: 800;
 }
 .botao-1:hover{
-    background-color: rgba(179, 7, 164, 0.836);
-    box-shadow:0 1px 10px 5px rgba(179, 7, 164, 0.836) ;
+    background-color: #0ea5dc;
+    box-shadow:0 1px 10px 5px #0ea5dc ;
 }
 
 .botao-2{
@@ -69,8 +69,8 @@ body{
     font-weight: 800;
 }
 .botao-2:hover{
-    background-color: rgba(179, 7, 164, 0.836);
-    box-shadow:0 1px 10px 5px rgba(179, 7, 164, 0.836) ;
+    background-color: #0ea5dc;
+    box-shadow:0 1px 10px 5px #0ea5dc ;
 }
 
 .botao-3{
@@ -84,6 +84,6 @@ body{
     font-weight: 800;
 }
 .botao-3:hover{
-    background-color: rgba(179, 7, 164, 0.836);
-    box-shadow:0 1px 10px 5px rgba(179, 7, 164, 0.836) ;
+    background-color: #0ea5dc;
+    box-shadow:0 1px 10px 5px #0ea5dc ;
 }
