@@ -1,89 +1,76 @@
-body{
-    background-color: rgb(9, 2, 29);
-   display: flex;
-   justify-content: center;
-    max-width: 100%;
-    height: 100vh;
+body {
+  background-color: rgb(9, 2, 29);
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: 100vh;
 }
 
-.sistem{
-    padding: 30px;
-    margin: 30px;
-    height: 80%;
-    width: 300px;
-    background-color: rgba(68, 41, 141, 0.6);
-    border-radius: 16px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   gap: 40px;
-   box-shadow: 0 1px 10px 5px #0ea5dc;
+.sistem {
+  padding: 30px;
+  margin: 30px;
+  height: 80%;
+  width: 300px;
+  background-color: rgba(68, 41, 141, 0.6);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  box-shadow: 0 1px 10px 5px #0ea5dc;
 }
 
-.sistem h1{
-    color: #1c9bc9;
-    text-transform: uppercase;
-    transition: 0.5s;
-    cursor: pointer;
+.sistem h1 {
+  color: #1c9bc9;
+  text-transform: uppercase;
+  transition: 0.5s;
+  cursor: pointer;
 }
-.sistem h1:hover{
-    color: #03b7f8;
-}
-
-.sistem .rangers{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.sistem h1:hover {
+  color: #03b7f8;
 }
 
-.sistem .botoes{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.sistem .rangers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.botao-1{
-    width: 100px;
-    height: 30px;
-    background-color: rgb(190, 201, 197);
-    cursor: pointer;
-    border-radius: 20px;
-    transition: 0.5s;
-    color: rgb(255, 255, 255);
-    font-weight: 800;
-}
-.botao-1:hover{
-    background-color: #0ea5dc;
-    box-shadow:0 1px 10px 5px #0ea5dc ;
+.sistem .botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.botao-2{
-    border-radius: 20px;
-    width: 100px;
-    height: 30px;
-    cursor: pointer;
-    background-color:rgb(190, 201, 197);
-    transition: 0.5s;
-    color: rgb(255, 255, 255);
-    font-weight: 800;
+.button-off {
+  width: 100px;
+  height: 30px;
+  background-color: #f13426;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  border: none;
 }
-.botao-2:hover{
-    background-color: #0ea5dc;
-    box-shadow:0 1px 10px 5px #0ea5dc ;
+.button-off:hover {
+  background-color: #e5484d;
+  box-shadow: 0 1px 10px 5px #e5484d;
 }
 
-.botao-3{
-    border-radius: 20px;
-    width: 100px;
-    height: 30px;
-    cursor: pointer;
-    background-color:rgb(190, 201, 197);
-    transition: 0.5s;
-    color: rgb(255, 255, 255);
-    font-weight: 800;
+.button-on {
+  width: 100px;
+  height: 30px;
+  background-color: #397a0d;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  border: none;
 }
-.botao-3:hover{
-    background-color: #0ea5dc;
-    box-shadow:0 1px 10px 5px #0ea5dc ;
+.button-on:hover {
+  background-color: #5ed410;
+  box-shadow: 0 1px 10px 5px #5ed410;
 }
