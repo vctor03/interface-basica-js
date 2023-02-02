@@ -1,0 +1,17 @@
+@media(min-width:1440px){
+    .sistem{
+        padding: 30px;
+        margin: 30px;
+        height: 60%;
+        width: 300px; 
+    }
+}
+
+@media(min-width:2560px){
+    .sistem{
+        padding: 30px;
+        margin: 30px;
+        height: 30%;
+        width: 300px; 
+    }
+}
